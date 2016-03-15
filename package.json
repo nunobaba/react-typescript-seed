@@ -1,0 +1,41 @@
+{
+  "name": "starter-react-typescript",
+  "version": "0.0.1",
+  "description": "Starter project that uses Typescript, React, and Webpack",
+  "main": "index.js",
+  "scripts": {
+    "build:webpack": "NODE_ENV=production webpack --config config/webpack.prod.js --progress --profile --colors --display-error-details",
+    "build": "npm run clean && npm run build:webpack",
+    "clean": "rimraf build",
+    "start": "node dev_server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thuan Huynh",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "",
+    "babel-loader": "",
+    "babel-plugin-react-transform": "",
+    "babel-preset-es2015": "",
+    "babel-preset-react": "",
+    "babel-preset-stage-0": "",
+    "express": "",
+    "react-transform-catch-errors": "",
+    "react-transform-hmr": "",
+    "redbox-react": "",
+    "rimraf": "",
+    "tslint": "",
+    "tslint-loader": "",
+    "webpack": "",
+    "webpack-dev-middleware": "",
+    "webpack-hot-middleware": ""
+  },
+  "dependencies": {
+    "react": "",
+    "react-dom": "",
+    "react-redux": "",
+    "redux": "",
+    "ts-loader": "",
+    "typescript": ""
+  }
+}

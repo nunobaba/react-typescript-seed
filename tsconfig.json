@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "filesGlob": [
+    "**/*.ts",
+    "**/*.tsx",
+    "!node_modules/**"
+  ],
+  "compilerOptions": {
+    "target": "ES6",
+    "jsx": "react",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noEmit": false
+  },
+  "exclude": [
+    "node_modules",
+    "config",
+    "dev_server.js"
+  ],
+  "files": [
+    "typings/react-redux/react-redux.d.ts",
+    "typings/react/react-dom.d.ts",
+    "typings/react/react.d.ts",
+    "typings/redux/redux.d.ts",
+    "typings/tsd.d.ts",
+    "src/index.tsx"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
